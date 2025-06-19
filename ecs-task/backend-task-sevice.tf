@@ -57,7 +57,7 @@ resource "aws_ecs_task_definition" "back-task" {
         { name = "DB_HOST", value = "book-rds.c1u4kewc6r37.ap-south-1.rds.amazonaws.com" },
         { name = "PORT", value = "3306" },
         { name = "DB_USERNAME", value = "admin" },
-        { name = "DB_PASSWORD", value = "veeranarni" }
+        { name = "DB_PASSWORD", value = "admin123" }
       ]
     }
   ])
